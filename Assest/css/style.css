@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.font,
+.Guess_num,
+.container,
+.number,
+.section1,
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font {
+  font-family: "VT323", monospace;
+  margin-top: 10px 0;
+  color: white;
+}
+.box {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 51, 30);
+}
+.first {
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.again {
+  width: 100px;
+  height: 8vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 51, 30);
+}
+
+.container {
+  margin-top: 20px;
+  width: 100%;
+  height: 30vh;
+  flex-direction: column;
+}
+.Guess_num {
+  margin-top: 50px;
+  color: white;
+  font-size: 70px;
+}
+.number {
+  /* margin-top: 15px; */
+  z-index: 2;
+  font-size: 100px;
+  width: 120px;
+  height: 100px;
+  background-color: white;
+  color: rgb(0, 51, 30);
+}
+
+.line {
+  z-index: 0;
+  position: absolute;
+  top: 230px;
+  width: 100%;
+  border-top: 5px solid white;
+}
+/* ----------------container2------------- */
+.container02 {
+  width: 100%;
+  display: flex;
+}
+.section1,
+.section2 {
+  flex-direction: column;
+  width: 50%;
+  /* height: 10vh; */
+}
+.guess {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin: 10vh 0 5vh 0;
+  width: 250px;
+  height: 100px;
+  background-color: rgb(0, 51, 30);
+  border: 5px solid white;
+}
+button {
+  border: 2px solid white;
+  color: rgb(0, 51, 30);
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+  background-color: wheat;
+}
+button:hover {
+  color: white;
+  background-color: rgb(70, 104, 3);
+}
+
+.point {
+  color: white;
+  font-size: 30px;
+}
+.point:first-child {
+  margin: 60px 0;
+}
